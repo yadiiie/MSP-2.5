@@ -1,0 +1,152 @@
+[14:14:33] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at ame.b(SourceFile:62) ~[server-1.20.4.jar:?]
+	at amb.a(SourceFile:138) ~[server-1.20.4.jar:?]
+	at amc.<init>(SourceFile:12) ~[server-1.20.4.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:112) ~[server-1.20.4.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:14:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:14:34] [ServerMain/INFO]: No existing world data, creating new world
+[14:14:36] [ServerMain/INFO]: Loaded 7 recipes
+[14:14:36] [ServerMain/INFO]: Loaded 1271 advancements
+[14:14:37] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:14:37] [Server thread/INFO]: Loading properties
+[14:14:37] [Server thread/INFO]: Default game type: SURVIVAL
+[14:14:37] [Server thread/INFO]: Generating keypair
+[14:14:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:14:37] [Server thread/INFO]: Using epoll channel type
+[14:14:37] [Server thread/INFO]: Preparing level "world"
+[14:14:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:14:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:56] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:56] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:14:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:15:39] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[14:15:40] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[14:15:40] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[14:15:43] [Server thread/INFO]: Time elapsed: 53494 ms
+[14:15:43] [Server thread/INFO]: Done (65.795s)! For help, type "help"
+[14:16:26] [User Authenticator #1/INFO]: UUID of player offrubensito is eb5477d4-dbde-4411-882c-748006150234
+[14:16:26] [Server thread/INFO]: offrubensito[/[0:0:0:0:0:0:0:1%0]:51888] logged in with entity id 239 at (20.5, 72.0, 73.5)
+[14:16:26] [Server thread/INFO]: offrubensito joined the game
+[14:16:56] [Server thread/INFO]: offrubensito lost connection: Disconnected
+[14:16:56] [Server thread/INFO]: offrubensito left the game
+[14:17:22] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:17:22] [Server thread/INFO]: <--[HERE]
+[14:17:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:17:25] [Server thread/INFO]: <--[HERE]
+[14:18:08] [Server thread/INFO]: Stopping the server
+[14:18:08] [Server thread/INFO]: Stopping server
+[14:18:08] [Server thread/INFO]: Saving players
+[14:18:08] [Server thread/INFO]: Saving worlds
+[14:18:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:18:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:18:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:18:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:18:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:18:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:18:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
